@@ -6,7 +6,6 @@ const axios = require("axios");
   var page = await browser.newPage();
   await page.goto("https://www.google.com/search?q=hi");
   await page.waitFor(3500);
-  var content = await page.evaluate(() => {
   var data = await page.evaluate(function() {
     return document.body.textContent.toString();
   });
