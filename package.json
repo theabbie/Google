@@ -5,6 +5,9 @@
     "axios": "latest",
     "puppeteer": "latest"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "keywords": [
     "scraper",
     "morph"
